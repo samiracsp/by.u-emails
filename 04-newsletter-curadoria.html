@@ -4,36 +4,116 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light">
-  <title>Novas formas de imaginar | by.u</title>
+  <title>IA é arte? | Newsletter by.u</title>
   <style>
     body { margin: 0; padding: 0; background: #cad2c5; color: #2f3e46; font-family: Arial, Helvetica, sans-serif; }
     table { border-collapse: collapse; }
     @media screen and (max-width: 600px) {
       .wrapper { width: 100% !important; }
-      .content { padding: 24px 24px 32px !important; }
-      .headline { font-size: 32px !important; line-height: 1.08 !important; }
-      .card { display: block !important; width: 100% !important; padding: 0 0 24px !important; }
+      .content { padding: 28px 24px 36px !important; }
+      .headline { font-size: 34px !important; line-height: 1.08 !important; }
+      .spectrum-cell { display: block !important; width: 100% !important; }
+      .spectrum-side { padding: 12px 0 !important; text-align: left !important; }
     }
   </style>
 </head>
 <body>
-  <table role="presentation" width="100%">
+  <table role="presentation" width="100%" style="background: #cad2c5;">
     <tr><td align="center" style="padding: 24px 12px;">
-      <table role="presentation" class="wrapper surface" width="600" style="width: 600px; max-width: 100%; background: #ffffff;">
-        <tr><td style="padding: 10px 16px 8px; border-bottom: 1px solid #cad2c5;"><img src="../light%20mode%20logo.png" width="128" alt="by.u" style="display: block; border: 0; width: 128px; max-width: 100%; height: auto;"></td></tr>
-        <tr><td class="content" style="padding: 24px 64px 40px;">
-          <p class="muted" style="margin: 0 0 18px; color: #52796f; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase;">Newsletter by.u · {{mes}}</p>
-          <h1 class="headline" style="margin: 0; color: #2f3e46; font-size: 42px; line-height: 1.05; font-weight: 400; letter-spacing: -1.2px;">Novas formas de imaginar.</h1>
-          <p style="margin: 28px 0 0; color: #354f52; font-size: 17px; line-height: 1.55;">Oi, {{nome}}.</p>
-          <p style="margin: 12px 0 0; color: #354f52; font-size: 17px; line-height: 1.55;">Reunimos novas obras, ideias que ganharam forma e uma curadoria para olhar o mundo por outros ângulos.</p>
-          <table role="presentation" width="100%" style="margin-top: 40px;"><tr><td class="line" style="padding: 0 0 18px; border-bottom: 1px solid #84a98c;"><p style="margin: 0; color: #2f3e46; font-size: 20px; line-height: 1.25;">Novas obras</p><p class="muted" style="margin: 8px 0 0; color: #52796f; font-size: 14px; line-height: 1.5;">Criações recentes para ver, guardar e levar para casa.</p></td></tr></table>
-          <div style="padding-top: 20px;">{{novas_obras_html}}</div>
-          <table role="presentation" width="100%" style="margin-top: 34px;"><tr><td class="line" style="padding: 0 0 18px; border-bottom: 1px solid #84a98c;"><p style="margin: 0; color: #2f3e46; font-size: 20px; line-height: 1.25;">Curadoria exclusiva</p><p class="muted" style="margin: 8px 0 0; color: #52796f; font-size: 14px; line-height: 1.5;">Uma seleção feita para alimentar a sua próxima ideia.</p></td></tr></table>
-          <div style="padding-top: 20px;">{{curadoria_html}}</div>
-          <a href="{{link_explorar}}" style="display: inline-block; margin-top: 32px; padding: 15px 22px; background: #548860; border-radius: 999px; color: #ffffff; font-size: 15px; text-decoration: none;">Explorar a by.u</a>
-          <p class="muted" style="margin: 48px 0 0; color: #52796f; font-size: 13px; line-height: 1.5;">Você imaginou. A gente ajudou a criar. Agora existe.</p>
+      <table role="presentation" class="wrapper" width="600" style="width: 600px; max-width: 100%; background: #ffffff;">
+        <tr><td style="padding: 10px 16px 8px; border-bottom: 1px solid #cad2c5;">
+          <img src="../light%20mode%20logo.png" width="128" alt="by.u" style="display: block; border: 0; width: 128px; max-width: 100%; height: auto;">
         </td></tr>
-        <tr><td style="padding: 20px 32px 28px; background: #cad2c5;"><p class="muted" style="margin: 0; color: #354f52; font-size: 12px; line-height: 1.5;">by.u · 2026<br>contato@byouart.com.br<br><a href="{{link_descadastro}}" style="color: #354f52;">Não quero mais receber</a></p></td></tr>
+        <tr><td class="content" style="padding: 36px 64px 44px;">
+          <p style="margin: 0 0 16px; color: #52796f; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase;">Newsletter by.u · {{mes}}</p>
+          <h1 class="headline" style="margin: 0; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 40px; line-height: 1.08; font-weight: 700; letter-spacing: -1px;">IA é arte?</h1>
+          <p style="margin: 8px 0 0; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 24px; line-height: 1.25;">Uma reflexão sobre criatividade e tecnologia</p>
+          <p style="margin: 18px 0 0; color: #52796f; font-size: 12px; letter-spacing: .8px; text-transform: uppercase;">Curadoria by.u&nbsp;&nbsp;·&nbsp;&nbsp;6 min de leitura</p>
+          <div style="height: 1px; margin: 28px 0 24px; background: #84a98c; font-size: 1px; line-height: 1px;">&nbsp;</div>
+
+          <p style="margin: 0 0 18px; color: #354f52; font-size: 16px; line-height: 1.65;">Há apenas alguns anos, a ideia de que um algoritmo pudesse criar uma obra de arte parecia ficção científica. Hoje, ferramentas como DALL·E, Midjourney e Stable Diffusion geram imagens impressionantes em segundos e deixam artistas, críticos e o público diante de uma pergunta fundamental: <strong>IA é realmente arte?</strong></p>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">O debate contemporâneo</h2>
+          <p style="margin: 0 0 14px; color: #354f52; font-size: 15px; line-height: 1.65;">A questão não é tão simples quanto parece. Quando você escreve um prompt em uma ferramenta de IA generativa e recebe uma imagem visualmente impressionante, há várias camadas de criatividade envolvidas:</p>
+          <ul style="margin: 0 0 18px; padding-left: 22px; color: #354f52; font-size: 15px; line-height: 1.7;">
+            <li style="padding: 2px 0;"><strong>O algoritmo</strong>, treinado com milhões de imagens;</li>
+            <li style="padding: 2px 0;"><strong>O prompt</strong>, que traduz sua descrição e sua visão;</li>
+            <li style="padding: 2px 0;"><strong>Os parâmetros</strong>, os ajustes técnicos que você escolhe;</li>
+            <li style="padding: 2px 0;"><strong>A seleção</strong>, a escolha entre as versões geradas;</li>
+            <li style="padding: 2px 0;"><strong>O refinamento</strong>, com edições e decisões posteriores.</li>
+          </ul>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">Criar com IA pode ser mais parecido com a <strong>fotografia no século XIX</strong> do que imaginamos. Quando surgiu, fotógrafos ouviram críticas semelhantes: “Não é arte de verdade, é apenas um aparelho registrando.” Hoje, quase ninguém questiona se fotografia é arte, embora essa aceitação tenha levado décadas.</p>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">Criatividade humana e algorítmica</h2>
+          <p style="margin: 0 0 12px; color: #354f52; font-size: 15px; line-height: 1.65;"><strong>A criatividade humana</strong> costuma envolver imaginação, decisões artísticas, comunicação de emoções e ideias, além de inovação e originalidade.</p>
+          <p style="margin: 0 0 18px; color: #354f52; font-size: 15px; line-height: 1.65;"><strong>A criatividade da IA</strong> envolve síntese de padrões aprendidos, novas combinações, otimização por parâmetros e produção de variações.</p>
+          <p style="margin: 0 0 18px; color: #354f52; font-size: 15px; line-height: 1.65;">A diferença parece estar, sobretudo, na <strong>intenção e na reflexão</strong>. Uma pessoa pode criar sobre luto, injustiça social ou amor com uma mensagem consciente. A IA produz imagens, mas não tem consciência da mensagem nem da emoção que elas evocam.</p>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">Mas artistas também trabalham a partir de técnicas aprendidas. Michelangelo aprendeu escultura em uma oficina; Tarsila estudou cubismo em Paris. Ninguém cria do zero: referências são absorvidas e transformadas. Nesse aspecto, há um paralelo com a forma como a IA aprende padrões visuais.</p>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">O papel do artista no processo</h2>
+          <p style="margin: 0 0 14px; color: #354f52; font-size: 15px; line-height: 1.65;">O que muda é o papel de quem cria. Se, tradicionalmente, o artista combina execução técnica e visão criativa, com IA a visão passa a dividir espaço com curadoria e direção.</p>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">Pense em um diretor de cinema. Ele não opera a câmera, não edita cada cena nem faz o desenho de som, mas sua visão unifica o trabalho. Quem usa IA pode fazer algo parecido: orientar o algoritmo e decidir como o resultado ganha sentido.</p>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">Exemplos que borram a linha</h2>
+          <h3 style="margin: 20px 0 6px; color: #52796f; font-size: 15px; line-height: 1.4;">Vik Muniz e a tecnologia</h3>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">O artista brasileiro Vik Muniz explora há anos a interseção entre arte, fotografia e tecnologia. Seus projetos transformam materiais como o lixo em imagens reconhecíveis, em um processo de criatividade conceitual, não apenas de execução. Se ele usasse IA para prototipar ideias antes de realizá-las fisicamente, isso tornaria o trabalho menos artístico?</p>
+          <h3 style="margin: 20px 0 6px; color: #52796f; font-size: 15px; line-height: 1.4;">Andy Warhol e as máquinas</h3>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">Warhol usava serigrafia, uma tecnologia de impressão, para criar obras icônicas da Pop Art. A máquina fazia a impressão, mas a visão era dele. A tecnologia era o meio, não o obstáculo.</p>
+          <h3 style="margin: 20px 0 6px; color: #52796f; font-size: 15px; line-height: 1.4;">Fotógrafos digitais</h3>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">Fotógrafos que manipulam imagens no Photoshop, também baseado em algoritmos sofisticados, são considerados artistas, mesmo quando parte do trabalho é computacional. O que torna a IA generativa diferente?</p>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">Um espectro de criatividade</h2>
+          <p style="margin: 0 0 16px; color: #354f52; font-size: 15px; line-height: 1.65;">Talvez seja mais útil pensar em um espectro do que em uma divisão binária:</p>
+          <table role="presentation" width="100%" style="margin: 0 0 18px; background: #f1f3ef;">
+            <tr>
+              <td class="spectrum-cell spectrum-side" width="34%" style="padding: 18px 10px 18px 16px; vertical-align: middle; text-align: left;">
+                <p style="margin: 0; color: #2f3e46; font-size: 13px; line-height: 1.45;"><strong>Execução técnica</strong><br><span style="color: #52796f;">Fotógrafo · registra</span></p>
+              </td>
+              <td class="spectrum-cell" width="32%" align="center" style="padding: 14px 8px; vertical-align: middle; border-left: 1px solid #cad2c5; border-right: 1px solid #cad2c5;">
+                <p style="margin: 0; color: #2f3e46; font-size: 13px; line-height: 1.45;"><strong>Artista com IA</strong><br><span style="color: #52796f;">Direciona e seleciona</span></p>
+              </td>
+              <td class="spectrum-cell spectrum-side" width="34%" style="padding: 18px 16px 18px 10px; vertical-align: middle; text-align: right;">
+                <p style="margin: 0; color: #2f3e46; font-size: 13px; line-height: 1.45;"><strong>Visão conceitual</strong><br><span style="color: #52796f;">Ilustrador · cria ideias</span></p>
+              </td>
+            </tr>
+          </table>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">Onde fica a autoria?</h2>
+          <p style="margin: 0 0 14px; color: #354f52; font-size: 15px; line-height: 1.65;">Aqui está a questão legal e ética: <strong>quem é o autor da obra?</strong> Se você escreve um prompt e gera uma imagem, foi você quem criou? E o desenvolvedor da ferramenta? E os artistas cujas obras foram usadas para treinar o modelo?</p>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">A resposta depende de como definimos autoria. Se ela é intenção e execução, quem concebe e conduz o processo tem um papel central. Se falamos de propriedade intelectual, a discussão se complica: modelos foram treinados com obras de artistas reais, nem sempre com consentimento.</p>
+
+          <h2 style="margin: 34px 0 12px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">A posição de artistas brasileiros</h2>
+          <p style="margin: 0 0 12px; color: #354f52; font-size: 15px; line-height: 1.65;">Muitos artistas brasileiros estão adotando uma abordagem híbrida:</p>
+          <ul style="margin: 0 0 18px; padding-left: 22px; color: #354f52; font-size: 15px; line-height: 1.7;">
+            <li style="padding: 2px 0;">usam IA para explorar ideias com rapidez;</li>
+            <li style="padding: 2px 0;">refinam os resultados manualmente;</li>
+            <li style="padding: 2px 0;">combinam a ferramenta com técnicas tradicionais;</li>
+            <li style="padding: 2px 0;">tratam a IA como colaboradora, não como criadora.</li>
+          </ul>
+          <p style="margin: 0; color: #354f52; font-size: 15px; line-height: 1.65;">Essa integração sugere que o futuro não precisa ser “IA versus artistas humanos”, mas uma conversa sobre como artistas podem evoluir com a tecnologia.</p>
+
+          <table role="presentation" width="100%" style="margin-top: 34px; border-top: 2px solid #548860; border-bottom: 1px solid #cad2c5;">
+            <tr><td style="padding: 22px 0 20px;">
+              <h2 style="margin: 0 0 10px; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.2;">É arte, mas é diferente</h2>
+              <p style="margin: 0 0 12px; color: #354f52; font-size: 15px; line-height: 1.65;">A resposta mais honesta talvez seja: <strong>sim, é arte, uma forma nova de arte.</strong></p>
+              <p style="margin: 0 0 12px; color: #354f52; font-size: 15px; line-height: 1.65;">Assim como a fotografia, o cinema e a arte digital foram novas formas de expressão em seus tempos, a arte gerada ou cocriada com IA é mais um meio disponível. Não substitui a pintura a óleo, a escultura ou a performance.</p>
+              <p style="margin: 0 0 8px; color: #354f52; font-size: 15px; line-height: 1.65;">O que importa não é apenas a ferramenta, mas:</p>
+              <ul style="margin: 0 0 14px; padding-left: 22px; color: #354f52; font-size: 15px; line-height: 1.7;">
+                <li style="padding: 2px 0;">a visão por trás da obra;</li>
+                <li style="padding: 2px 0;">a intenção de quem cria;</li>
+                <li style="padding: 2px 0;">a mensagem comunicada;</li>
+                <li style="padding: 2px 0;">a originalidade e a inovação.</li>
+              </ul>
+              <p style="margin: 0; color: #2f3e46; font-family: Georgia, 'Times New Roman', serif; font-size: 18px; line-height: 1.45;"><strong>IA é arte? Depende de quem está conduzindo a IA.</strong></p>
+            </td></tr>
+          </table>
+
+          <a href="{{link_explorar}}" style="display: inline-block; margin-top: 30px; padding: 14px 20px; background: #548860; color: #ffffff; font-size: 14px; text-decoration: none;">Explore a by.u</a>
+          <p style="margin: 34px 0 0; color: #52796f; font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.5;">Você imaginou. A gente ajudou a criar. Agora existe.</p>
+        </td></tr>
+        <tr><td style="padding: 20px 32px 28px; background: #cad2c5;">
+          <p style="margin: 0; color: #354f52; font-size: 12px; line-height: 1.6;">by.u · 2026<br><a href="mailto:contato@byouart.com.br" style="color: #354f52;">contato@byouart.com.br</a><br><a href="{{link_descadastro}}" style="color: #354f52;">Não quero mais receber</a></p>
+        </td></tr>
       </table>
     </td></tr>
   </table>
